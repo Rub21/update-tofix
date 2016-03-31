@@ -18,7 +18,7 @@ request({
       changeset_comment: task.changeset_comment,
       password: password,
       file: fs.createReadStream(csvfile),
-      preserve: 'true',
+      preserve: 'false',
       newtask: 'false'
     };
     // update task
