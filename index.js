@@ -32,7 +32,7 @@ request({
       if (err) {
         console.log(err);
       }
-      console.log('Update Successful :' + body);
+      console.log('Successful Update :' + body);
     });
   } else {
     console.log('the task doesn\'t exist');
