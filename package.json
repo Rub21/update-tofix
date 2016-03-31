@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "use this app to update [to-fix](http://osmlab.github.io/to-fix/) tasks.",
   "main": "index.js",
+  "bin": {
+    "updatetofix": "index.js"
+  },
   "dependencies": {
     "minimist": "^1.2.0",
     "request": "^2.69.0"
