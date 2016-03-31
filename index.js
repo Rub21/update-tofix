@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+
+'use strict';
 var fs = require('fs');
 var request = require("request");
 var argv = require('minimist')(process.argv.slice(2));
@@ -30,7 +32,7 @@ request({
       if (err) {
         console.log(err);
       }
-      console.log('Successful Update!' + body);
+      console.log(body);
     });
   } else {
     console.log('the task doesnt exit');
